@@ -1,0 +1,1849 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title "DIYPie - Display"
+Date "2021-03-05"
+Rev "V1"
+Comp "iocapa"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DIYPie:LPM035M407B DS?
+U 1 1 60E59F9D
+P 9850 2950
+AR Path="/60E59F9D" Ref="DS?"  Part="1" 
+AR Path="/60E46611/60E59F9D" Ref="DS1"  Part="1" 
+F 0 "DS1" H 9850 4815 50  0000 C CNN
+F 1 "LPM035M407B" H 9850 4724 50  0000 C CNN
+F 2 "DIYPie:KYOCERA_245863050104829+" H 9200 5100 50  0001 C CNN
+F 3 "https://ro.mouser.com/datasheet/2/909/5863-1602212.pdf" H 10700 700 50  0001 C CNN
+F 4 "Display connector" H 9850 2950 50  0001 C CNN "Description"
+F 5 "Kyocera" H 9850 2950 50  0001 C CNN "Manufacturer"
+F 6 "245863050104829+ " H 9850 2950 50  0001 C CNN "Manufacturer_PN"
+F 7 "346-245863050104829+" H 9850 2950 50  0001 C CNN "Mouser_PN"
+F 8 "https://ro.mouser.com/ProductDetail/346-245863050104829%2b/" H 9850 2950 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 9850 2950 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 9850 2950 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 9850 2950 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 9850 2950 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 9850 2950 50  0001 C CNN "Other_PN"
+F 14 "~" H 9850 2950 50  0001 C CNN "Other_PL"
+F 15 "~" H 9850 2950 50  0001 C CNN "MOQ"
+F 16 "~" H 9850 2950 50  0001 C CNN "Lead_time"
+F 17 "~" H 9850 2950 50  0001 C CNN "Tolerance"
+F 18 "~" H 9850 2950 50  0001 C CNN "Voltage"
+F 19 "~" H 9850 2950 50  0001 C CNN "Current"
+F 20 "~" H 9850 2950 50  0001 C CNN "Dielectric"
+	1    9850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E59FA3
+P 9850 4700
+AR Path="/60E59FA3" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E59FA3" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 9850 4450 50  0001 C CNN
+F 1 "GND" H 9855 4527 50  0000 C CNN
+F 2 "" H 9850 4700 50  0001 C CNN
+F 3 "" H 9850 4700 50  0001 C CNN
+	1    9850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E59FA9
+P 10500 4500
+AR Path="/60E59FA9" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E59FA9" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 10500 4250 50  0001 C CNN
+F 1 "GND" H 10505 4327 50  0000 C CNN
+F 2 "" H 10500 4500 50  0001 C CNN
+F 3 "" H 10500 4500 50  0001 C CNN
+	1    10500 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 2750 10500 2750
+Wire Wire Line
+	10450 4450 10500 4450
+Connection ~ 10500 4450
+Wire Wire Line
+	10500 4450 10500 4500
+Wire Wire Line
+	10450 4350 10500 4350
+Connection ~ 10500 4350
+Wire Wire Line
+	10500 4350 10500 4450
+Wire Wire Line
+	10450 4250 10500 4250
+Connection ~ 10500 4250
+Wire Wire Line
+	10500 4250 10500 4350
+Wire Wire Line
+	10450 4150 10500 4150
+Connection ~ 10500 4150
+Wire Wire Line
+	10500 4150 10500 4250
+Wire Wire Line
+	10450 4050 10500 4050
+Connection ~ 10500 4050
+Wire Wire Line
+	10500 4050 10500 4150
+Wire Wire Line
+	10450 3950 10500 3950
+Connection ~ 10500 3950
+Wire Wire Line
+	10500 3950 10500 4050
+Wire Wire Line
+	10450 3850 10500 3850
+Connection ~ 10500 3850
+Wire Wire Line
+	10500 3850 10500 3950
+Wire Wire Line
+	10450 3750 10500 3750
+Connection ~ 10500 3750
+Wire Wire Line
+	10500 3750 10500 3850
+Wire Wire Line
+	10450 3650 10500 3650
+Connection ~ 10500 3650
+Wire Wire Line
+	10500 3650 10500 3750
+Wire Wire Line
+	10450 3450 10500 3450
+Connection ~ 10500 3450
+Wire Wire Line
+	10500 3450 10500 3550
+Wire Wire Line
+	10450 3550 10500 3550
+Connection ~ 10500 3550
+Wire Wire Line
+	10500 3550 10500 3650
+Wire Wire Line
+	10450 3350 10500 3350
+Connection ~ 10500 3350
+Wire Wire Line
+	10500 3350 10500 3450
+Wire Wire Line
+	10450 3250 10500 3250
+Wire Wire Line
+	10500 2750 10500 2850
+Connection ~ 10500 3250
+Wire Wire Line
+	10500 3250 10500 3350
+Wire Wire Line
+	10450 3150 10500 3150
+Connection ~ 10500 3150
+Wire Wire Line
+	10500 3150 10500 3250
+Wire Wire Line
+	10450 3050 10500 3050
+Connection ~ 10500 3050
+Wire Wire Line
+	10500 3050 10500 3150
+Wire Wire Line
+	10450 2950 10500 2950
+Connection ~ 10500 2950
+Wire Wire Line
+	10500 2950 10500 3050
+Wire Wire Line
+	10450 2850 10500 2850
+Connection ~ 10500 2850
+Wire Wire Line
+	10500 2850 10500 2950
+Wire Wire Line
+	9250 2450 9200 2450
+Wire Wire Line
+	9200 2450 9200 2550
+Wire Wire Line
+	9200 3350 9250 3350
+Wire Wire Line
+	9250 3250 9200 3250
+Connection ~ 9200 3250
+Wire Wire Line
+	9200 3250 9200 3350
+Wire Wire Line
+	9250 3150 9200 3150
+Connection ~ 9200 3150
+Wire Wire Line
+	9200 3150 9200 3250
+Wire Wire Line
+	9250 3050 9200 3050
+Connection ~ 9200 3050
+Wire Wire Line
+	9200 3050 9200 3150
+Wire Wire Line
+	9250 2950 9200 2950
+Connection ~ 9200 2950
+Wire Wire Line
+	9200 2950 9200 3050
+Wire Wire Line
+	9250 2850 9200 2850
+Connection ~ 9200 2850
+Wire Wire Line
+	9250 2750 9200 2750
+Connection ~ 9200 2750
+Wire Wire Line
+	9200 2750 9200 2850
+Wire Wire Line
+	9250 2650 9200 2650
+Connection ~ 9200 2650
+Wire Wire Line
+	9200 2650 9200 2750
+Wire Wire Line
+	9250 2550 9200 2550
+Connection ~ 9200 2550
+Wire Wire Line
+	9200 2550 9200 2650
+Wire Wire Line
+	9850 4650 9850 4700
+Wire Wire Line
+	10450 1450 10500 1450
+Wire Wire Line
+	10500 1450 10500 1350
+Wire Wire Line
+	10500 1350 10450 1350
+$Comp
+L DIYPie:+1V8_CM #PWR?
+U 1 1 60E5A002
+P 10700 900
+AR Path="/60E5A002" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A002" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 10700 750 50  0001 C CNN
+F 1 "+1V8_CM" H 10715 1073 50  0000 C CNN
+F 2 "" H 10700 900 50  0001 C CNN
+F 3 "" H 10700 900 50  0001 C CNN
+	1    10700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIYPie:+3V3_CM #PWR?
+U 1 1 60E5A008
+P 4200 1200
+AR Path="/60E5A008" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A008" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 4200 1050 50  0001 C CNN
+F 1 "+3V3_CM" H 4215 1373 50  0000 C CNN
+F 2 "" H 4200 1200 50  0001 C CNN
+F 3 "" H 4200 1200 50  0001 C CNN
+	1    4200 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60E5A01E
+P 10700 1100
+AR Path="/60E5A01E" Ref="C?"  Part="1" 
+AR Path="/60E46611/60E5A01E" Ref="C12"  Part="1" 
+F 0 "C12" H 10792 1146 50  0000 L CNN
+F 1 "1u" H 10792 1055 50  0000 L CNN
+F 2 "DIYPie:C_0402_1005Metric" H 10700 1100 50  0001 C CNN
+F 3 "~" H 10700 1100 50  0001 C CNN
+F 4 "~" H 10700 1100 50  0001 C CNN "Description"
+F 5 "any" H 10700 1100 50  0001 C CNN "Manufacturer"
+F 6 "~" H 10700 1100 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 10700 1100 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 10700 1100 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 10700 1100 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 10700 1100 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 10700 1100 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 10700 1100 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 10700 1100 50  0001 C CNN "Other_PN"
+F 14 "~" H 10700 1100 50  0001 C CNN "Other_PL"
+F 15 "~" H 10700 1100 50  0001 C CNN "MOQ"
+F 16 "~" H 10700 1100 50  0001 C CNN "Lead_time"
+F 17 "20%" H 10700 1100 50  0001 C CNN "Tolerance"
+F 18 "6.3V" H 10700 1100 50  0001 C CNN "Voltage"
+F 19 "~" H 10700 1100 50  0001 C CNN "Current"
+F 20 "X5R" H 10700 1100 50  0001 C CNN "Dielectric"
+	1    10700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A024
+P 10700 1250
+AR Path="/60E5A024" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A024" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 10700 1000 50  0001 C CNN
+F 1 "GND" H 10705 1077 50  0000 C CNN
+F 2 "" H 10700 1250 50  0001 C CNN
+F 3 "" H 10700 1250 50  0001 C CNN
+	1    10700 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 900  10700 950 
+Wire Wire Line
+	10700 1200 10700 1250
+Wire Wire Line
+	10500 1350 10500 950 
+Wire Wire Line
+	10500 950  10700 950 
+Connection ~ 10500 1350
+Connection ~ 10700 950 
+Wire Wire Line
+	10700 950  10700 1000
+$Comp
+L DIYPie:TPS65132W U?
+U 1 1 60E5A041
+P 5100 2400
+AR Path="/60E5A041" Ref="U?"  Part="1" 
+AR Path="/60E46611/60E5A041" Ref="U1"  Part="1" 
+F 0 "U1" H 5100 3415 50  0000 C CNN
+F 1 "TPS65132W" H 5100 3324 50  0000 C CNN
+F 2 "DIYPie:TI_TPS65132WRVC" H 5100 3350 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps65132.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1605869533409&ref_url=https%253A%252F%252Fro.mouser.com%252F" H 4850 1900 50  0001 C CNN
+F 4 "LCD Bias generator" H 5100 2400 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 5100 2400 50  0001 C CNN "Manufacturer"
+F 6 "TPS65132WRVCR " H 5100 2400 50  0001 C CNN "Manufacturer_PN"
+F 7 "595-TPS65132WRVCR " H 5100 2400 50  0001 C CNN "Mouser_PN"
+F 8 "https://ro.mouser.com/ProductDetail/Texas-Instruments/TPS65132WRVCR/?qs=pqSajtDZXRWSwkPnJk4KOw%3D%3D" H 5100 2400 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 5100 2400 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 5100 2400 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 5100 2400 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 5100 2400 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 5100 2400 50  0001 C CNN "Other_PN"
+F 14 "~" H 5100 2400 50  0001 C CNN "Other_PL"
+F 15 "~" H 5100 2400 50  0001 C CNN "MOQ"
+F 16 "~" H 5100 2400 50  0001 C CNN "Lead_time"
+F 17 "~" H 5100 2400 50  0001 C CNN "Tolerance"
+F 18 "~" H 5100 2400 50  0001 C CNN "Voltage"
+F 19 "~" H 5100 2400 50  0001 C CNN "Current"
+	1    5100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60E5A054
+P 5600 3100
+AR Path="/60E5A054" Ref="C?"  Part="1" 
+AR Path="/60E46611/60E5A054" Ref="C7"  Part="1" 
+F 0 "C7" H 5692 3146 50  0000 L CNN
+F 1 "2u2" H 5692 3055 50  0000 L CNN
+F 2 "DIYPie:C_0603_1608Metric" H 5600 3100 50  0001 C CNN
+F 3 "~" H 5600 3100 50  0001 C CNN
+F 4 "Capacitor, 0603, X5R, +-20% or better, 10V" H 5600 3100 50  0001 C CNN "Description"
+F 5 "any" H 5600 3100 50  0001 C CNN "Manufacturer"
+F 6 "~" H 5600 3100 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 5600 3100 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 5600 3100 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 5600 3100 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 5600 3100 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 5600 3100 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 5600 3100 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 5600 3100 50  0001 C CNN "Other_PN"
+F 14 "~" H 5600 3100 50  0001 C CNN "Other_PL"
+F 15 "~" H 5600 3100 50  0001 C CNN "MOQ"
+F 16 "~" H 5600 3100 50  0001 C CNN "Lead_time"
+F 17 "20%" H 5600 3100 50  0001 C CNN "Tolerance"
+F 18 "10V" H 5600 3100 50  0001 C CNN "Voltage"
+F 19 "~" H 5600 3100 50  0001 C CNN "Current"
+F 20 "X5R" H 5600 3100 50  0001 C CNN "Dielectric"
+	1    5600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60E5A06A
+P 5950 1750
+AR Path="/60E5A06A" Ref="C?"  Part="1" 
+AR Path="/60E46611/60E5A06A" Ref="C8"  Part="1" 
+F 0 "C8" H 6042 1796 50  0000 L CNN
+F 1 "4u7" H 6042 1705 50  0000 L CNN
+F 2 "DIYPie:C_0603_1608Metric" H 5950 1750 50  0001 C CNN
+F 3 "~" H 5950 1750 50  0001 C CNN
+F 4 "~" H 5950 1750 50  0001 C CNN "Description"
+F 5 "any" H 5950 1750 50  0001 C CNN "Manufacturer"
+F 6 "~" H 5950 1750 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 5950 1750 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 5950 1750 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 5950 1750 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 5950 1750 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 5950 1750 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 5950 1750 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 5950 1750 50  0001 C CNN "Other_PN"
+F 14 "~" H 5950 1750 50  0001 C CNN "Other_PL"
+F 15 "~" H 5950 1750 50  0001 C CNN "MOQ"
+F 16 "~" H 5950 1750 50  0001 C CNN "Lead_time"
+F 17 "20%" H 5950 1750 50  0001 C CNN "Tolerance"
+F 18 "10V" H 5950 1750 50  0001 C CNN "Voltage"
+F 19 "~" H 5950 1750 50  0001 C CNN "Current"
+F 20 "X5R" H 5950 1750 50  0001 C CNN "Dielectric"
+	1    5950 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Small L?
+U 1 1 60E5A080
+P 5200 950
+AR Path="/60E5A080" Ref="L?"  Part="1" 
+AR Path="/60E46611/60E5A080" Ref="L1"  Part="1" 
+F 0 "L1" V 5385 950 50  0000 C CNN
+F 1 "4u7" V 5294 950 50  0000 C CNN
+F 2 "DIYPie:L_0805_2012Metric" H 5200 950 50  0001 C CNN
+F 3 "~" H 5200 950 50  0001 C CNN
+F 4 "~" H 5200 950 50  0001 C CNN "Description"
+F 5 "any" H 5200 950 50  0001 C CNN "Manufacturer"
+F 6 "~" H 5200 950 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 5200 950 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 5200 950 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 5200 950 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 5200 950 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 5200 950 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 5200 950 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 5200 950 50  0001 C CNN "Other_PN"
+F 14 "~" H 5200 950 50  0001 C CNN "Other_PL"
+F 15 "~" H 5200 950 50  0001 C CNN "MOQ"
+F 16 "~" H 5200 950 50  0001 C CNN "Lead_time"
+F 17 "20%" H 5200 950 50  0001 C CNN "Tolerance"
+F 18 "~" H 5200 950 50  0001 C CNN "Voltage"
+F 19 "600mA" H 5200 950 50  0001 C CNN "Current"
+	1    5200 950 
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5550 1650 5600 1650
+Wire Wire Line
+	5550 1750 5600 1750
+Wire Wire Line
+	5600 1750 5600 1650
+Connection ~ 5600 1650
+Wire Wire Line
+	5550 2050 5600 2050
+Wire Wire Line
+	5600 2050 5600 1950
+Wire Wire Line
+	5600 1950 5550 1950
+Wire Wire Line
+	5550 2350 5600 2350
+Wire Wire Line
+	5600 2350 5600 2250
+Wire Wire Line
+	5600 2250 5550 2250
+Wire Wire Line
+	5600 3000 5600 2950
+Wire Wire Line
+	5600 2950 5550 2950
+Wire Wire Line
+	5600 3200 5600 3250
+Wire Wire Line
+	5600 3250 5550 3250
+$Comp
+L Device:C_Small C?
+U 1 1 60E5A0A4
+P 4200 1400
+AR Path="/60E5A0A4" Ref="C?"  Part="1" 
+AR Path="/60E46611/60E5A0A4" Ref="C4"  Part="1" 
+F 0 "C4" H 4292 1446 50  0000 L CNN
+F 1 "1u" H 4292 1355 50  0000 L CNN
+F 2 "DIYPie:C_0402_1005Metric" H 4200 1400 50  0001 C CNN
+F 3 "~" H 4200 1400 50  0001 C CNN
+F 4 "~" H 4200 1400 50  0001 C CNN "Description"
+F 5 "any" H 4200 1400 50  0001 C CNN "Manufacturer"
+F 6 "~" H 4200 1400 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 4200 1400 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 4200 1400 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 4200 1400 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 4200 1400 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 4200 1400 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 4200 1400 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 4200 1400 50  0001 C CNN "Other_PN"
+F 14 "~" H 4200 1400 50  0001 C CNN "Other_PL"
+F 15 "~" H 4200 1400 50  0001 C CNN "MOQ"
+F 16 "~" H 4200 1400 50  0001 C CNN "Lead_time"
+F 17 "20%" H 4200 1400 50  0001 C CNN "Tolerance"
+F 18 "6.3V" H 4200 1400 50  0001 C CNN "Voltage"
+F 19 "~" H 4200 1400 50  0001 C CNN "Current"
+F 20 "X5R" H 4200 1400 50  0001 C CNN "Dielectric"
+	1    4200 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A0AA
+P 4200 1550
+AR Path="/60E5A0AA" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A0AA" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 4200 1300 50  0001 C CNN
+F 1 "GND" H 4205 1377 50  0000 C CNN
+F 2 "" H 4200 1550 50  0001 C CNN
+F 3 "" H 4200 1550 50  0001 C CNN
+	1    4200 1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1500 4200 1550
+Wire Wire Line
+	4200 1200 4200 1250
+Wire Wire Line
+	4650 1650 4400 1650
+Wire Wire Line
+	4400 1650 4400 1250
+Wire Wire Line
+	4400 1250 4200 1250
+Connection ~ 4200 1250
+Wire Wire Line
+	4200 1250 4200 1300
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A0B7
+P 4600 3300
+AR Path="/60E5A0B7" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A0B7" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 4600 3050 50  0001 C CNN
+F 1 "GND" H 4605 3127 50  0000 C CNN
+F 2 "" H 4600 3300 50  0001 C CNN
+F 3 "" H 4600 3300 50  0001 C CNN
+	1    4600 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2450 4600 2450
+Wire Wire Line
+	4600 2450 4600 2550
+Wire Wire Line
+	4650 3250 4600 3250
+Connection ~ 4600 3250
+Wire Wire Line
+	4600 3250 4600 3300
+Wire Wire Line
+	4650 3050 4600 3050
+Connection ~ 4600 3050
+Wire Wire Line
+	4600 3050 4600 3250
+Wire Wire Line
+	4650 2950 4600 2950
+Connection ~ 4600 2950
+Wire Wire Line
+	4600 2950 4600 3050
+Wire Wire Line
+	4650 2550 4600 2550
+Connection ~ 4600 2550
+Wire Wire Line
+	4600 2550 4600 2650
+Wire Wire Line
+	4650 2650 4600 2650
+Connection ~ 4600 2650
+Wire Wire Line
+	4600 2650 4600 2750
+Wire Wire Line
+	4650 2750 4600 2750
+Connection ~ 4600 2750
+Wire Wire Line
+	4600 2750 4600 2950
+$Comp
+L Device:C_Small C?
+U 1 1 60E5A0E1
+P 5950 2400
+AR Path="/60E5A0E1" Ref="C?"  Part="1" 
+AR Path="/60E46611/60E5A0E1" Ref="C9"  Part="1" 
+F 0 "C9" H 6042 2446 50  0000 L CNN
+F 1 "4u7" H 6042 2355 50  0000 L CNN
+F 2 "DIYPie:C_0603_1608Metric" H 5950 2400 50  0001 C CNN
+F 3 "~" H 5950 2400 50  0001 C CNN
+F 4 "~" H 5950 2400 50  0001 C CNN "Description"
+F 5 "any" H 5950 2400 50  0001 C CNN "Manufacturer"
+F 6 "~" H 5950 2400 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 5950 2400 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 5950 2400 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 5950 2400 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 5950 2400 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 5950 2400 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 5950 2400 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 5950 2400 50  0001 C CNN "Other_PN"
+F 14 "~" H 5950 2400 50  0001 C CNN "Other_PL"
+F 15 "~" H 5950 2400 50  0001 C CNN "MOQ"
+F 16 "~" H 5950 2400 50  0001 C CNN "Lead_time"
+F 17 "20%" H 5950 2400 50  0001 C CNN "Tolerance"
+F 18 "10V" H 5950 2400 50  0001 C CNN "Voltage"
+F 19 "~" H 5950 2400 50  0001 C CNN "Current"
+F 20 "X5R" H 5950 2400 50  0001 C CNN "Dielectric"
+	1    5950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60E5A0F7
+P 5950 3100
+AR Path="/60E5A0F7" Ref="C?"  Part="1" 
+AR Path="/60E46611/60E5A0F7" Ref="C10"  Part="1" 
+F 0 "C10" H 6042 3146 50  0000 L CNN
+F 1 "4u7" H 6042 3055 50  0000 L CNN
+F 2 "DIYPie:C_0603_1608Metric" H 5950 3100 50  0001 C CNN
+F 3 "~" H 5950 3100 50  0001 C CNN
+F 4 "~" H 5950 3100 50  0001 C CNN "Description"
+F 5 "any" H 5950 3100 50  0001 C CNN "Manufacturer"
+F 6 "~" H 5950 3100 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 5950 3100 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 5950 3100 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 5950 3100 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 5950 3100 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 5950 3100 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 5950 3100 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 5950 3100 50  0001 C CNN "Other_PN"
+F 14 "~" H 5950 3100 50  0001 C CNN "Other_PL"
+F 15 "~" H 5950 3100 50  0001 C CNN "MOQ"
+F 16 "~" H 5950 3100 50  0001 C CNN "Lead_time"
+F 17 "20%" H 5950 3100 50  0001 C CNN "Tolerance"
+F 18 "10V" H 5950 3100 50  0001 C CNN "Voltage"
+F 19 "~" H 5950 3100 50  0001 C CNN "Current"
+F 20 "X5R" H 5950 3100 50  0001 C CNN "Dielectric"
+	1    5950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A0FD
+P 5950 1900
+AR Path="/60E5A0FD" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A0FD" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 5950 1650 50  0001 C CNN
+F 1 "GND" H 5955 1727 50  0000 C CNN
+F 2 "" H 5950 1900 50  0001 C CNN
+F 3 "" H 5950 1900 50  0001 C CNN
+	1    5950 1900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A103
+P 5950 2550
+AR Path="/60E5A103" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A103" Ref="#PWR016"  Part="1" 
+F 0 "#PWR016" H 5950 2300 50  0001 C CNN
+F 1 "GND" H 5955 2377 50  0000 C CNN
+F 2 "" H 5950 2550 50  0001 C CNN
+F 3 "" H 5950 2550 50  0001 C CNN
+	1    5950 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A109
+P 5950 3250
+AR Path="/60E5A109" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A109" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 5950 3000 50  0001 C CNN
+F 1 "GND" H 5955 3077 50  0000 C CNN
+F 2 "" H 5950 3250 50  0001 C CNN
+F 3 "" H 5950 3250 50  0001 C CNN
+	1    5950 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3250 5950 3200
+Wire Wire Line
+	5950 2550 5950 2500
+Wire Wire Line
+	5950 1850 5950 1900
+$Comp
+L DIYPie:+BAT_SYS #PWR?
+U 1 1 60E5A112
+P 4750 900
+AR Path="/60E5A112" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A112" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 4750 750 50  0001 C CNN
+F 1 "+BAT_SYS" H 4765 1073 50  0000 C CNN
+F 2 "" H 4750 900 50  0001 C CNN
+F 3 "" H 4750 900 50  0001 C CNN
+	1    4750 900 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60E5A128
+P 4750 1100
+AR Path="/60E5A128" Ref="C?"  Part="1" 
+AR Path="/60E46611/60E5A128" Ref="C5"  Part="1" 
+F 0 "C5" H 4842 1146 50  0000 L CNN
+F 1 "4u7" H 4842 1055 50  0000 L CNN
+F 2 "DIYPie:C_0603_1608Metric" H 4750 1100 50  0001 C CNN
+F 3 "~" H 4750 1100 50  0001 C CNN
+F 4 "~" H 4750 1100 50  0001 C CNN "Description"
+F 5 "any" H 4750 1100 50  0001 C CNN "Manufacturer"
+F 6 "~" H 4750 1100 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 4750 1100 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 4750 1100 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 4750 1100 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 4750 1100 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 4750 1100 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 4750 1100 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 4750 1100 50  0001 C CNN "Other_PN"
+F 14 "~" H 4750 1100 50  0001 C CNN "Other_PL"
+F 15 "~" H 4750 1100 50  0001 C CNN "MOQ"
+F 16 "~" H 4750 1100 50  0001 C CNN "Lead_time"
+F 17 "20%" H 4750 1100 50  0001 C CNN "Tolerance"
+F 18 "10V" H 4750 1100 50  0001 C CNN "Voltage"
+F 19 "~" H 4750 1100 50  0001 C CNN "Current"
+F 20 "X5R" H 4750 1100 50  0001 C CNN "Dielectric"
+	1    4750 1100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A12E
+P 4750 1250
+AR Path="/60E5A12E" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A12E" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 4750 1000 50  0001 C CNN
+F 1 "GND" H 4755 1077 50  0000 C CNN
+F 2 "" H 4750 1250 50  0001 C CNN
+F 3 "" H 4750 1250 50  0001 C CNN
+	1    4750 1250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1200 4750 1250
+$Comp
+L DIYPie:TPS61176 U?
+U 1 1 60E5A135
+P 4200 6100
+AR Path="/60E5A135" Ref="U?"  Part="1" 
+AR Path="/60E46611/60E5A135" Ref="U2"  Part="1" 
+F 0 "U2" H 4200 6965 50  0000 C CNN
+F 1 "TPS61176" H 4200 6874 50  0000 C CNN
+F 2 "DIYPie:TI_TPS61176RTE" H 4550 6550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps61176.pdf?ts=1614869613017&ref_url=https%253A%252F%252Fwww.google.com%252F" H 4550 6550 50  0001 C CNN
+F 4 "LED backlight" H 4200 6100 50  0001 C CNN "Description"
+F 5 "Texas Instruments" H 4200 6100 50  0001 C CNN "Manufacturer"
+F 6 "TPS61176RTER" H 4200 6100 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 4200 6100 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 4200 6100 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 4200 6100 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 4200 6100 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 4200 6100 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 4200 6100 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 4200 6100 50  0001 C CNN "Other_PN"
+F 14 "~" H 4200 6100 50  0001 C CNN "Other_PL"
+F 15 "~" H 4200 6100 50  0001 C CNN "MOQ"
+F 16 "~" H 4200 6100 50  0001 C CNN "Lead_time"
+F 17 "~" H 4200 6100 50  0001 C CNN "Tolerance"
+F 18 "~" H 4200 6100 50  0001 C CNN "Voltage"
+F 19 "~" H 4200 6100 50  0001 C CNN "Current"
+F 20 "~" H 4200 6100 50  0001 C CNN "Dielectric"
+	1    4200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIYPie:+3V3_CM #PWR?
+U 1 1 60E5A13B
+P 3100 5100
+AR Path="/60E5A13B" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A13B" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 3100 4950 50  0001 C CNN
+F 1 "+3V3_CM" H 3115 5273 50  0000 C CNN
+F 2 "" H 3100 5100 50  0001 C CNN
+F 3 "" H 3100 5100 50  0001 C CNN
+	1    3100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60E5A151
+P 3100 5300
+AR Path="/60E5A151" Ref="C?"  Part="1" 
+AR Path="/60E46611/60E5A151" Ref="C2"  Part="1" 
+F 0 "C2" H 3192 5346 50  0000 L CNN
+F 1 "1u" H 3192 5255 50  0000 L CNN
+F 2 "DIYPie:C_0402_1005Metric" H 3100 5300 50  0001 C CNN
+F 3 "~" H 3100 5300 50  0001 C CNN
+F 4 "~" H 3100 5300 50  0001 C CNN "Description"
+F 5 "any" H 3100 5300 50  0001 C CNN "Manufacturer"
+F 6 "~" H 3100 5300 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 3100 5300 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 3100 5300 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 3100 5300 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 3100 5300 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 3100 5300 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 3100 5300 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 3100 5300 50  0001 C CNN "Other_PN"
+F 14 "~" H 3100 5300 50  0001 C CNN "Other_PL"
+F 15 "~" H 3100 5300 50  0001 C CNN "MOQ"
+F 16 "~" H 3100 5300 50  0001 C CNN "Lead_time"
+F 17 "20%" H 3100 5300 50  0001 C CNN "Tolerance"
+F 18 "6.3V" H 3100 5300 50  0001 C CNN "Voltage"
+F 19 "~" H 3100 5300 50  0001 C CNN "Current"
+F 20 "X5R" H 3100 5300 50  0001 C CNN "Dielectric"
+	1    3100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A157
+P 3100 5450
+AR Path="/60E5A157" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A157" Ref="#PWR04"  Part="1" 
+F 0 "#PWR04" H 3100 5200 50  0001 C CNN
+F 1 "GND" H 3105 5277 50  0000 C CNN
+F 2 "" H 3100 5450 50  0001 C CNN
+F 3 "" H 3100 5450 50  0001 C CNN
+	1    3100 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 5400 3100 5450
+Wire Wire Line
+	3100 5100 3100 5150
+Wire Wire Line
+	3100 5150 3450 5150
+Wire Wire Line
+	3450 5150 3450 5500
+Wire Wire Line
+	3450 5500 3650 5500
+Connection ~ 3100 5150
+Wire Wire Line
+	3100 5150 3100 5200
+$Comp
+L DIYPie:+BAT_SYS #PWR?
+U 1 1 60E5A164
+P 3850 4700
+AR Path="/60E5A164" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A164" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 3850 4550 50  0001 C CNN
+F 1 "+BAT_SYS" H 3865 4873 50  0000 C CNN
+F 2 "" H 3850 4700 50  0001 C CNN
+F 3 "" H 3850 4700 50  0001 C CNN
+	1    3850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A180
+P 3850 5050
+AR Path="/60E5A180" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A180" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 3850 4800 50  0001 C CNN
+F 1 "GND" H 3855 4877 50  0000 C CNN
+F 2 "" H 3850 5050 50  0001 C CNN
+F 3 "" H 3850 5050 50  0001 C CNN
+	1    3850 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4800 3850 4750
+Wire Wire Line
+	4200 4750 3850 4750
+Connection ~ 3850 4750
+Wire Wire Line
+	3850 4750 3850 4700
+Wire Wire Line
+	3850 5000 3850 5050
+Wire Wire Line
+	4800 4750 4800 5500
+Wire Wire Line
+	4800 5500 4750 5500
+Wire Wire Line
+	4400 4750 4800 4750
+$Comp
+L Device:L_Small L?
+U 1 1 60E5A18E
+P 4300 4750
+AR Path="/60E5A18E" Ref="L?"  Part="1" 
+AR Path="/60E46611/60E5A18E" Ref="L2"  Part="1" 
+F 0 "L2" V 4485 4750 50  0000 C CNN
+F 1 "4u7" V 4394 4750 50  0000 C CNN
+F 2 "DIYPie:L_1008_2520Metric" H 4300 4750 50  0001 C CNN
+F 3 "~" H 4300 4750 50  0001 C CNN
+F 4 "~" H 4300 4750 50  0001 C CNN "Description"
+F 5 "any" H 4300 4750 50  0001 C CNN "Manufacturer"
+F 6 "~" H 4300 4750 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 4300 4750 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 4300 4750 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 4300 4750 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 4300 4750 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 4300 4750 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 4300 4750 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 4300 4750 50  0001 C CNN "Other_PN"
+F 14 "~" H 4300 4750 50  0001 C CNN "Other_PL"
+F 15 "~" H 4300 4750 50  0001 C CNN "MOQ"
+F 16 "~" H 4300 4750 50  0001 C CNN "Lead_time"
+F 17 "20%" H 4300 4750 50  0001 C CNN "Tolerance"
+F 18 "~" H 4300 4750 50  0001 C CNN "Voltage"
+F 19 "1.1A" H 4300 4750 50  0001 C CNN "Current"
+F 20 "~" H 4300 4750 50  0001 C CNN "Dielectric"
+	1    4300 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A194
+P 5100 5350
+AR Path="/60E5A194" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A194" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 5100 5100 50  0001 C CNN
+F 1 "GND" H 5105 5177 50  0000 C CNN
+F 2 "" H 5100 5350 50  0001 C CNN
+F 3 "" H 5100 5350 50  0001 C CNN
+	1    5100 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5350 5100 5300
+$Comp
+L Device:D_Schottky_Small D?
+U 1 1 60E5A1A1
+P 4950 4750
+AR Path="/60E5A1A1" Ref="D?"  Part="1" 
+AR Path="/60E46611/60E5A1A1" Ref="D1"  Part="1" 
+F 0 "D1" H 4950 4545 50  0000 C CNN
+F 1 "PMEG4010CEJ" H 4950 4636 50  0000 C CNN
+F 2 "DIYPie:D_SOD-323F" V 4950 4750 50  0001 C CNN
+F 3 "~" V 4950 4750 50  0001 C CNN
+F 4 "~" H 4950 4750 50  0001 C CNN "Description"
+F 5 "Nexperia" H 4950 4750 50  0001 C CNN "Manufacturer"
+F 6 "PMEG4010CEJ" H 4950 4750 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 4950 4750 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 4950 4750 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 4950 4750 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 4950 4750 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 4950 4750 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 4950 4750 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 4950 4750 50  0001 C CNN "Other_PN"
+F 14 "~" H 4950 4750 50  0001 C CNN "Other_PL"
+F 15 "~" H 4950 4750 50  0001 C CNN "MOQ"
+F 16 "~" H 4950 4750 50  0001 C CNN "Lead_time"
+F 17 "~" H 4950 4750 50  0001 C CNN "Tolerance"
+F 18 "40V" H 4950 4750 50  0001 C CNN "Voltage"
+F 19 "1A" H 4950 4750 50  0001 C CNN "Current"
+F 20 "~" H 4950 4750 50  0001 C CNN "Dielectric"
+	1    4950 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 4750 4850 4750
+Connection ~ 4800 4750
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A1A9
+P 5450 5050
+AR Path="/60E5A1A9" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A1A9" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 5450 4800 50  0001 C CNN
+F 1 "GND" H 5455 4877 50  0000 C CNN
+F 2 "" H 5450 5050 50  0001 C CNN
+F 3 "" H 5450 5050 50  0001 C CNN
+	1    5450 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5000 5450 5050
+Wire Wire Line
+	5100 4750 5100 4800
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A1CF
+P 4800 6850
+AR Path="/60E5A1CF" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A1CF" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 4800 6600 50  0001 C CNN
+F 1 "GND" H 4805 6677 50  0000 C CNN
+F 2 "" H 4800 6850 50  0001 C CNN
+F 3 "" H 4800 6850 50  0001 C CNN
+	1    4800 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 6600 4800 6600
+Wire Wire Line
+	4800 6600 4800 6700
+Wire Wire Line
+	4750 6800 4800 6800
+Connection ~ 4800 6800
+Wire Wire Line
+	4800 6800 4800 6850
+Wire Wire Line
+	4750 6700 4800 6700
+Connection ~ 4800 6700
+Wire Wire Line
+	4800 6700 4800 6800
+Wire Wire Line
+	3650 6800 3550 6800
+Wire Wire Line
+	3550 6800 3550 6850
+Wire Wire Line
+	3650 6600 3250 6600
+Wire Wire Line
+	3250 6600 3250 6850
+$Comp
+L Device:R_Small R?
+U 1 1 60E5A270
+P 2950 6950
+AR Path="/60E5A270" Ref="R?"  Part="1" 
+AR Path="/60E46611/60E5A270" Ref="R1"  Part="1" 
+F 0 "R1" H 3009 6996 50  0000 L CNN
+F 1 "34K" H 3009 6905 50  0000 L CNN
+F 2 "DIYPie:R_0402_1005Metric" H 2950 6950 50  0001 C CNN
+F 3 "~" H 2950 6950 50  0001 C CNN
+F 4 "~" H 2950 6950 50  0001 C CNN "Description"
+F 5 "any" H 2950 6950 50  0001 C CNN "Manufacturer"
+F 6 "~" H 2950 6950 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 2950 6950 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 2950 6950 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 2950 6950 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 2950 6950 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 2950 6950 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 2950 6950 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 2950 6950 50  0001 C CNN "Other_PN"
+F 14 "~" H 2950 6950 50  0001 C CNN "Other_PL"
+F 15 "~" H 2950 6950 50  0001 C CNN "MOQ"
+F 16 "~" H 2950 6950 50  0001 C CNN "Lead_time"
+F 17 "1%" H 2950 6950 50  0001 C CNN "Tolerance"
+F 18 "~" H 2950 6950 50  0001 C CNN "Voltage"
+F 19 "~" H 2950 6950 50  0001 C CNN "Current"
+F 20 "~" H 2950 6950 50  0001 C CNN "Dielectric"
+	1    2950 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 6400 2950 6400
+Wire Wire Line
+	2950 6400 2950 6850
+Wire Wire Line
+	3650 6200 2650 6200
+Wire Wire Line
+	2650 6200 2650 6850
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A290
+P 3550 7100
+AR Path="/60E5A290" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A290" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 3550 6850 50  0001 C CNN
+F 1 "GND" H 3555 6927 50  0000 C CNN
+F 2 "" H 3550 7100 50  0001 C CNN
+F 3 "" H 3550 7100 50  0001 C CNN
+	1    3550 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A296
+P 3250 7100
+AR Path="/60E5A296" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A296" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 3250 6850 50  0001 C CNN
+F 1 "GND" H 3255 6927 50  0000 C CNN
+F 2 "" H 3250 7100 50  0001 C CNN
+F 3 "" H 3250 7100 50  0001 C CNN
+	1    3250 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A29C
+P 2950 7100
+AR Path="/60E5A29C" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A29C" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2950 6850 50  0001 C CNN
+F 1 "GND" H 2955 6927 50  0000 C CNN
+F 2 "" H 2950 7100 50  0001 C CNN
+F 3 "" H 2950 7100 50  0001 C CNN
+	1    2950 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A2A2
+P 2650 7100
+AR Path="/60E5A2A2" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A2A2" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 2650 6850 50  0001 C CNN
+F 1 "GND" H 2655 6927 50  0000 C CNN
+F 2 "" H 2650 7100 50  0001 C CNN
+F 3 "" H 2650 7100 50  0001 C CNN
+	1    2650 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 7100 2650 7050
+Wire Wire Line
+	2950 7100 2950 7050
+Wire Wire Line
+	3250 7100 3250 7050
+Wire Wire Line
+	3550 7100 3550 7050
+Wire Wire Line
+	8700 4150 9250 4150
+Text Label 9200 4150 2    50   ~ 0
+lcm_ledpwm
+Text Label 7900 3800 2    50   ~ 0
+lcm_te
+Text Label 7500 3250 2    50   ~ 0
+lcm_reset
+Wire Wire Line
+	4750 5900 5300 5900
+Wire Wire Line
+	4750 6200 5300 6200
+Wire Wire Line
+	4200 1850 4650 1850
+Text Label 4600 1850 2    50   ~ 0
+bias_enp
+Wire Wire Line
+	4200 1950 4650 1950
+Text Label 4600 1950 2    50   ~ 0
+bias_enn
+Wire Wire Line
+	4200 2150 4650 2150
+Text Label 4600 2150 2    50   ~ 0
+bias_scl
+Wire Wire Line
+	4200 2250 4650 2250
+Text Label 4600 2250 2    50   ~ 0
+bias_sda
+Wire Wire Line
+	9250 1350 8650 1350
+Text Label 9200 1350 2    50   ~ 0
+lcm_dsi_clk_n
+Wire Wire Line
+	9250 1450 8650 1450
+Text Label 9200 1450 2    50   ~ 0
+lcm_dsi_clk_p
+Wire Wire Line
+	9250 1550 8650 1550
+Text Label 9200 1550 2    50   ~ 0
+lcm_dsi_d0_n
+Wire Wire Line
+	9250 1650 8650 1650
+Text Label 9200 1650 2    50   ~ 0
+lcm_dsi_d0_p
+Wire Wire Line
+	9250 1750 8650 1750
+Text Label 9200 1750 2    50   ~ 0
+lcm_dsi_d1_n
+Wire Wire Line
+	9250 1850 8650 1850
+Text Label 9200 1850 2    50   ~ 0
+lcm_dsi_d1_p
+Wire Wire Line
+	9250 1950 8650 1950
+Text Label 9200 1950 2    50   ~ 0
+lcm_dsi_d2_n
+Wire Wire Line
+	9250 2050 8650 2050
+Text Label 9200 2050 2    50   ~ 0
+lcm_dsi_d2_p
+Wire Wire Line
+	9250 2150 8650 2150
+Text Label 9200 2150 2    50   ~ 0
+lcm_dsi_d3_n
+Wire Wire Line
+	9250 2250 8650 2250
+Text Label 9200 2250 2    50   ~ 0
+lcm_dsi_d3_p
+Wire Wire Line
+	10900 1550 10450 1550
+Text Label 10500 1550 0    50   ~ 0
+lcm_avdd
+Wire Wire Line
+	10900 1650 10450 1650
+Text Label 10500 1650 0    50   ~ 0
+lcm_avee
+Wire Wire Line
+	9250 3550 8700 3550
+Text Label 9200 3550 2    50   ~ 0
+lcm_led+
+Wire Wire Line
+	9250 3650 8700 3650
+Text Label 9200 3650 2    50   ~ 0
+lcm_led1-
+Wire Wire Line
+	9250 3750 8700 3750
+Text Label 9200 3750 2    50   ~ 0
+lcm_led2-
+Wire Wire Line
+	9200 2850 9200 2900
+$Comp
+L power:GND #PWR?
+U 1 1 60E5A2DE
+P 9100 2900
+AR Path="/60E5A2DE" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60E5A2DE" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 9100 2650 50  0001 C CNN
+F 1 "GND" V 9105 2772 50  0000 R CNN
+F 2 "" H 9100 2900 50  0001 C CNN
+F 3 "" H 9100 2900 50  0001 C CNN
+	1    9100 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9100 2900 9200 2900
+Connection ~ 9200 2900
+Wire Wire Line
+	9200 2900 9200 2950
+Wire Wire Line
+	4750 900  4750 950 
+Wire Wire Line
+	5100 950  4750 950 
+Connection ~ 4750 950 
+Wire Wire Line
+	4750 950  4750 1000
+Wire Wire Line
+	5300 950  5600 950 
+Wire Wire Line
+	5600 950  5600 1650
+Wire Wire Line
+	5600 1950 5750 1950
+Wire Wire Line
+	5750 1950 5750 1600
+Wire Wire Line
+	5750 1600 5950 1600
+Wire Wire Line
+	5950 1600 5950 1650
+Connection ~ 5600 1950
+Wire Wire Line
+	5600 2250 5950 2250
+Wire Wire Line
+	5950 2250 5950 2300
+Connection ~ 5600 2250
+Wire Wire Line
+	5750 2650 5750 2900
+Wire Wire Line
+	5750 2900 5950 2900
+Wire Wire Line
+	5950 2900 5950 3000
+Wire Wire Line
+	5550 2650 5750 2650
+Wire Wire Line
+	5950 1600 6400 1600
+Connection ~ 5950 1600
+Text Label 6000 1600 0    50   ~ 0
+lcm_avdd
+Connection ~ 5950 2900
+Text Label 6000 2900 0    50   ~ 0
+lcm_avee
+Wire Wire Line
+	5950 2900 6400 2900
+Wire Wire Line
+	5100 5000 5100 5050
+Wire Wire Line
+	4950 5700 4950 5050
+Wire Wire Line
+	4950 5050 5100 5050
+Connection ~ 5100 5050
+Wire Wire Line
+	5100 5050 5100 5100
+Wire Wire Line
+	4750 5700 4950 5700
+Wire Wire Line
+	5050 4750 5100 4750
+Wire Wire Line
+	5450 4750 5450 4800
+Connection ~ 5100 4750
+Wire Wire Line
+	5450 4750 5900 4750
+Text Label 5500 4750 0    50   ~ 0
+lcm_led+
+Text Label 4850 5900 0    50   ~ 0
+lcm_led1-
+Text Label 4850 6200 0    50   ~ 0
+lcm_led2-
+Text HLabel 1500 900  0    50   BiDi ~ 0
+SIG_DISPLAY
+Text Label 1650 1050 0    50   ~ 0
+bias_enp
+Text Label 1650 1150 0    50   ~ 0
+bias_enn
+Text Label 1650 1250 0    50   ~ 0
+bias_scl
+Text Label 1650 1350 0    50   ~ 0
+bias_sda
+Text Label 1650 1450 0    50   ~ 0
+lcm_reset
+Text Label 1650 1550 0    50   ~ 0
+lcm_te
+Text Label 3600 5850 2    50   ~ 0
+lcm_ledpwm
+Text Label 1650 1850 0    50   ~ 0
+lcm_dsi_clk_n
+Text Label 1650 1950 0    50   ~ 0
+lcm_dsi_clk_p
+Text Label 1650 2050 0    50   ~ 0
+lcm_dsi_d0_n
+Text Label 1650 2150 0    50   ~ 0
+lcm_dsi_d0_p
+Text Label 1650 2250 0    50   ~ 0
+lcm_dsi_d1_n
+Text Label 1650 2350 0    50   ~ 0
+lcm_dsi_d1_p
+Text Label 1650 2450 0    50   ~ 0
+lcm_dsi_d2_n
+Text Label 1650 2550 0    50   ~ 0
+lcm_dsi_d2_p
+Text Label 1650 2650 0    50   ~ 0
+lcm_dsi_d3_n
+Text Label 1650 2750 0    50   ~ 0
+lcm_dsi_d3_p
+Entry Wire Line
+	1550 950  1650 1050
+Entry Wire Line
+	1550 1050 1650 1150
+Entry Wire Line
+	1550 1150 1650 1250
+Entry Wire Line
+	1550 1250 1650 1350
+Entry Wire Line
+	1550 1350 1650 1450
+Entry Wire Line
+	1550 1450 1650 1550
+Entry Wire Line
+	1550 1550 1650 1650
+Entry Wire Line
+	1550 1650 1650 1750
+Entry Wire Line
+	1550 1750 1650 1850
+Entry Wire Line
+	1550 1850 1650 1950
+Entry Wire Line
+	1550 1950 1650 2050
+Entry Wire Line
+	1550 2050 1650 2150
+Entry Wire Line
+	1550 2150 1650 2250
+Entry Wire Line
+	1550 2250 1650 2350
+Entry Wire Line
+	1550 2350 1650 2450
+Entry Wire Line
+	1550 2450 1650 2550
+Wire Wire Line
+	1650 2750 2200 2750
+Wire Wire Line
+	1650 2650 2200 2650
+Wire Wire Line
+	1650 2550 2200 2550
+Wire Wire Line
+	1650 2450 2200 2450
+Wire Wire Line
+	1650 2350 2200 2350
+Wire Wire Line
+	1650 2250 2200 2250
+Wire Wire Line
+	1650 2150 2200 2150
+Wire Wire Line
+	1650 2050 2200 2050
+Wire Wire Line
+	1650 1950 2200 1950
+Wire Wire Line
+	1650 1850 2200 1850
+Wire Wire Line
+	1650 1550 2200 1550
+Wire Wire Line
+	1650 1450 2200 1450
+Wire Wire Line
+	1650 1350 2200 1350
+Wire Wire Line
+	1650 1250 2200 1250
+Wire Wire Line
+	1650 1150 2200 1150
+Wire Wire Line
+	1650 1050 2200 1050
+Wire Bus Line
+	1550 900  1500 900 
+Wire Wire Line
+	4750 6000 4800 6000
+Wire Wire Line
+	4800 6000 4800 6100
+Connection ~ 4800 6600
+Wire Wire Line
+	4750 6400 4800 6400
+Connection ~ 4800 6400
+Wire Wire Line
+	4800 6400 4800 6600
+Wire Wire Line
+	4750 6300 4800 6300
+Connection ~ 4800 6300
+Wire Wire Line
+	4800 6300 4800 6400
+Wire Wire Line
+	4750 6100 4800 6100
+Connection ~ 4800 6100
+Wire Wire Line
+	4800 6100 4800 6300
+$Comp
+L Device:C_Small C?
+U 1 1 60EC942E
+P 2650 6950
+AR Path="/60EC942E" Ref="C?"  Part="1" 
+AR Path="/60E46611/60EC942E" Ref="C1"  Part="1" 
+F 0 "C1" H 2742 6996 50  0000 L CNN
+F 1 "1u" H 2742 6905 50  0000 L CNN
+F 2 "DIYPie:C_0402_1005Metric" H 2650 6950 50  0001 C CNN
+F 3 "~" H 2650 6950 50  0001 C CNN
+F 4 "~" H 2650 6950 50  0001 C CNN "Description"
+F 5 "any" H 2650 6950 50  0001 C CNN "Manufacturer"
+F 6 "~" H 2650 6950 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 2650 6950 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 2650 6950 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 2650 6950 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 2650 6950 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 2650 6950 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 2650 6950 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 2650 6950 50  0001 C CNN "Other_PN"
+F 14 "~" H 2650 6950 50  0001 C CNN "Other_PL"
+F 15 "~" H 2650 6950 50  0001 C CNN "MOQ"
+F 16 "~" H 2650 6950 50  0001 C CNN "Lead_time"
+F 17 "20%" H 2650 6950 50  0001 C CNN "Tolerance"
+F 18 "6.3V" H 2650 6950 50  0001 C CNN "Voltage"
+F 19 "~" H 2650 6950 50  0001 C CNN "Current"
+F 20 "X5R" H 2650 6950 50  0001 C CNN "Dielectric"
+	1    2650 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60ECAB2C
+P 3250 6950
+AR Path="/60ECAB2C" Ref="C?"  Part="1" 
+AR Path="/60E46611/60ECAB2C" Ref="C3"  Part="1" 
+F 0 "C3" H 3342 6996 50  0000 L CNN
+F 1 "1u" H 3342 6905 50  0000 L CNN
+F 2 "DIYPie:C_0402_1005Metric" H 3250 6950 50  0001 C CNN
+F 3 "~" H 3250 6950 50  0001 C CNN
+F 4 "~" H 3250 6950 50  0001 C CNN "Description"
+F 5 "any" H 3250 6950 50  0001 C CNN "Manufacturer"
+F 6 "~" H 3250 6950 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 3250 6950 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 3250 6950 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 3250 6950 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 3250 6950 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 3250 6950 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 3250 6950 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 3250 6950 50  0001 C CNN "Other_PN"
+F 14 "~" H 3250 6950 50  0001 C CNN "Other_PL"
+F 15 "~" H 3250 6950 50  0001 C CNN "MOQ"
+F 16 "~" H 3250 6950 50  0001 C CNN "Lead_time"
+F 17 "20%" H 3250 6950 50  0001 C CNN "Tolerance"
+F 18 "6.3V" H 3250 6950 50  0001 C CNN "Voltage"
+F 19 "~" H 3250 6950 50  0001 C CNN "Current"
+F 20 "X5R" H 3250 6950 50  0001 C CNN "Dielectric"
+	1    3250 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60ECBD53
+P 3850 4900
+AR Path="/60ECBD53" Ref="C?"  Part="1" 
+AR Path="/60E46611/60ECBD53" Ref="C6"  Part="1" 
+F 0 "C6" H 3942 4946 50  0000 L CNN
+F 1 "2u2" H 3942 4855 50  0000 L CNN
+F 2 "DIYPie:C_0603_1608Metric" H 3850 4900 50  0001 C CNN
+F 3 "~" H 3850 4900 50  0001 C CNN
+F 4 "~" H 3850 4900 50  0001 C CNN "Description"
+F 5 "any" H 3850 4900 50  0001 C CNN "Manufacturer"
+F 6 "~" H 3850 4900 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 3850 4900 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 3850 4900 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 3850 4900 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 3850 4900 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 3850 4900 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 3850 4900 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 3850 4900 50  0001 C CNN "Other_PN"
+F 14 "~" H 3850 4900 50  0001 C CNN "Other_PL"
+F 15 "~" H 3850 4900 50  0001 C CNN "MOQ"
+F 16 "~" H 3850 4900 50  0001 C CNN "Lead_time"
+F 17 "20%" H 3850 4900 50  0001 C CNN "Tolerance"
+F 18 "6.3V" H 3850 4900 50  0001 C CNN "Voltage"
+F 19 "~" H 3850 4900 50  0001 C CNN "Current"
+F 20 "X5R" H 3850 4900 50  0001 C CNN "Dielectric"
+	1    3850 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60ECD575
+P 5450 4900
+AR Path="/60ECD575" Ref="C?"  Part="1" 
+AR Path="/60E46611/60ECD575" Ref="C11"  Part="1" 
+F 0 "C11" H 5542 4946 50  0000 L CNN
+F 1 "4u7" H 5542 4855 50  0000 L CNN
+F 2 "DIYPie:C_0805_2012Metric" H 5450 4900 50  0001 C CNN
+F 3 "~" H 5450 4900 50  0001 C CNN
+F 4 "~" H 5450 4900 50  0001 C CNN "Description"
+F 5 "any" H 5450 4900 50  0001 C CNN "Manufacturer"
+F 6 "~" H 5450 4900 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 5450 4900 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 5450 4900 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 5450 4900 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 5450 4900 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 5450 4900 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 5450 4900 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 5450 4900 50  0001 C CNN "Other_PN"
+F 14 "~" H 5450 4900 50  0001 C CNN "Other_PL"
+F 15 "~" H 5450 4900 50  0001 C CNN "MOQ"
+F 16 "~" H 5450 4900 50  0001 C CNN "Lead_time"
+F 17 "20%" H 5450 4900 50  0001 C CNN "Tolerance"
+F 18 "50V" H 5450 4900 50  0001 C CNN "Voltage"
+F 19 "~" H 5450 4900 50  0001 C CNN "Current"
+F 20 "X5R" H 5450 4900 50  0001 C CNN "Dielectric"
+	1    5450 4900
+	1    0    0    -1  
+$EndComp
+Text Notes 4950 6450 0    50   ~ 0
+I_Sink ≈ 31mA
+$Comp
+L Device:R_Small R?
+U 1 1 60430BE5
+P 5100 5200
+AR Path="/60430BE5" Ref="R?"  Part="1" 
+AR Path="/60E46611/60430BE5" Ref="R4"  Part="1" 
+F 0 "R4" H 5159 5246 50  0000 L CNN
+F 1 "34K" H 5159 5155 50  0000 L CNN
+F 2 "DIYPie:R_0402_1005Metric" H 5100 5200 50  0001 C CNN
+F 3 "~" H 5100 5200 50  0001 C CNN
+F 4 "~" H 5100 5200 50  0001 C CNN "Description"
+F 5 "any" H 5100 5200 50  0001 C CNN "Manufacturer"
+F 6 "~" H 5100 5200 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 5100 5200 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 5100 5200 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 5100 5200 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 5100 5200 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 5100 5200 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 5100 5200 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 5100 5200 50  0001 C CNN "Other_PN"
+F 14 "~" H 5100 5200 50  0001 C CNN "Other_PL"
+F 15 "~" H 5100 5200 50  0001 C CNN "MOQ"
+F 16 "~" H 5100 5200 50  0001 C CNN "Lead_time"
+F 17 "1%" H 5100 5200 50  0001 C CNN "Tolerance"
+F 18 "~" H 5100 5200 50  0001 C CNN "Voltage"
+F 19 "~" H 5100 5200 50  0001 C CNN "Current"
+F 20 "~" H 5100 5200 50  0001 C CNN "Dielectric"
+	1    5100 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60431410
+P 5100 4900
+AR Path="/60431410" Ref="R?"  Part="1" 
+AR Path="/60E46611/60431410" Ref="R3"  Part="1" 
+F 0 "R3" H 5159 4946 50  0000 L CNN
+F 1 "732K" H 5159 4855 50  0000 L CNN
+F 2 "DIYPie:R_0402_1005Metric" H 5100 4900 50  0001 C CNN
+F 3 "~" H 5100 4900 50  0001 C CNN
+F 4 "~" H 5100 4900 50  0001 C CNN "Description"
+F 5 "any" H 5100 4900 50  0001 C CNN "Manufacturer"
+F 6 "~" H 5100 4900 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 5100 4900 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 5100 4900 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 5100 4900 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 5100 4900 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 5100 4900 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 5100 4900 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 5100 4900 50  0001 C CNN "Other_PN"
+F 14 "~" H 5100 4900 50  0001 C CNN "Other_PL"
+F 15 "~" H 5100 4900 50  0001 C CNN "MOQ"
+F 16 "~" H 5100 4900 50  0001 C CNN "Lead_time"
+F 17 "1%" H 5100 4900 50  0001 C CNN "Tolerance"
+F 18 "~" H 5100 4900 50  0001 C CNN "Voltage"
+F 19 "~" H 5100 4900 50  0001 C CNN "Current"
+F 20 "~" H 5100 4900 50  0001 C CNN "Dielectric"
+	1    5100 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 4750
+Wire Wire Line
+	5100 4750 5450 4750
+Text Notes 5300 4600 0    50   ~ 0
+V_Max = 34.447V
+$Comp
+L Device:R_Small R?
+U 1 1 60491AC5
+P 3550 6950
+AR Path="/60491AC5" Ref="R?"  Part="1" 
+AR Path="/60E46611/60491AC5" Ref="R2"  Part="1" 
+F 0 "R2" H 3609 6996 50  0000 L CNN
+F 1 "82K" H 3609 6905 50  0000 L CNN
+F 2 "DIYPie:R_0402_1005Metric" H 3550 6950 50  0001 C CNN
+F 3 "~" H 3550 6950 50  0001 C CNN
+F 4 "~" H 3550 6950 50  0001 C CNN "Description"
+F 5 "any" H 3550 6950 50  0001 C CNN "Manufacturer"
+F 6 "~" H 3550 6950 50  0001 C CNN "Manufacturer_PN"
+F 7 "~" H 3550 6950 50  0001 C CNN "Mouser_PN"
+F 8 "~" H 3550 6950 50  0001 C CNN "Mouser_PL"
+F 9 "~" H 3550 6950 50  0001 C CNN "LCSC_PN"
+F 10 "~" H 3550 6950 50  0001 C CNN "LCSC_PL"
+F 11 "~" H 3550 6950 50  0001 C CNN "Digikey_PN"
+F 12 "~" H 3550 6950 50  0001 C CNN "Digikey_PL"
+F 13 "~" H 3550 6950 50  0001 C CNN "Other_PN"
+F 14 "~" H 3550 6950 50  0001 C CNN "Other_PL"
+F 15 "~" H 3550 6950 50  0001 C CNN "MOQ"
+F 16 "~" H 3550 6950 50  0001 C CNN "Lead_time"
+F 17 "1%" H 3550 6950 50  0001 C CNN "Tolerance"
+F 18 "~" H 3550 6950 50  0001 C CNN "Voltage"
+F 19 "~" H 3550 6950 50  0001 C CNN "Current"
+F 20 "~" H 3550 6950 50  0001 C CNN "Dielectric"
+	1    3550 6950
+	1    0    0    -1  
+$EndComp
+Text Notes 4950 3550 0    50   ~ 0
+I2C_Addr = 0x3E
+Text Notes 5850 1350 0    50   ~ 0
+I_Out ≤ 40mA
+Text Notes 5850 1450 0    50   ~ 0
+V_Out = ± 5.7V
+$Comp
+L DIYPie:EMH2T2R Q2
+U 2 1 604B1DEB
+P 8000 5750
+F 0 "Q2" H 8141 5796 50  0000 L CNN
+F 1 "EMH2T2R" H 8141 5705 50  0000 L CNN
+F 2 "DIYPie:SOT-563" H 8000 5750 50  0001 C CNN
+F 3 "https://ro.mouser.com/datasheet/2/348/emh2t2r-e-1872840.pdf" H 8000 5750 50  0001 C CNN
+	2    8000 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DIYPie:EMH2T2R Q2
+U 1 1 604B2755
+P 8000 4900
+F 0 "Q2" H 8141 4946 50  0000 L CNN
+F 1 "EMH2T2R" H 8141 4855 50  0000 L CNN
+F 2 "DIYPie:SOT-563" H 8000 4900 50  0001 C CNN
+F 3 "https://ro.mouser.com/datasheet/2/348/emh2t2r-e-1872840.pdf" H 8000 4900 50  0001 C CNN
+	1    8000 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DIYPie:EMH2T2R Q1
+U 1 1 604B4AA6
+P 7900 3250
+F 0 "Q1" H 8040 3296 50  0000 L CNN
+F 1 "EMH2T2R" H 8040 3205 50  0000 L CNN
+F 2 "DIYPie:SOT-563" H 7900 3250 50  0001 C CNN
+F 3 "https://ro.mouser.com/datasheet/2/348/emh2t2r-e-1872840.pdf" H 7900 3250 50  0001 C CNN
+	1    7900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIYPie:EMH2T2R Q1
+U 2 1 604B4AAC
+P 8000 4050
+F 0 "Q1" H 8141 4096 50  0000 L CNN
+F 1 "EMH2T2R" H 8141 4005 50  0000 L CNN
+F 2 "DIYPie:SOT-563" H 8000 4050 50  0001 C CNN
+F 3 "https://ro.mouser.com/datasheet/2/348/emh2t2r-e-1872840.pdf" H 8000 4050 50  0001 C CNN
+	2    8000 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 5850 3050 5850
+$Comp
+L power:GND #PWR?
+U 1 1 60575D0B
+P 7950 6000
+AR Path="/60575D0B" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60575D0B" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 7950 5750 50  0001 C CNN
+F 1 "GND" H 7955 5827 50  0000 C CNN
+F 2 "" H 7950 6000 50  0001 C CNN
+F 3 "" H 7950 6000 50  0001 C CNN
+	1    7950 6000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60576A1F
+P 7950 5150
+AR Path="/60576A1F" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60576A1F" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 7950 4900 50  0001 C CNN
+F 1 "GND" H 7955 4977 50  0000 C CNN
+F 2 "" H 7950 5150 50  0001 C CNN
+F 3 "" H 7950 5150 50  0001 C CNN
+	1    7950 5150
+	-1   0    0    -1  
+$EndComp
+Text Label 7900 4650 2    50   ~ 0
+lcm_id0
+Text Label 7900 5500 2    50   ~ 0
+lcm_id1
+Wire Wire Line
+	7950 6000 7950 5950
+Wire Wire Line
+	7950 5150 7950 5100
+Wire Wire Line
+	7950 4700 7950 4650
+Wire Wire Line
+	7950 4650 7550 4650
+Wire Wire Line
+	7550 5500 7950 5500
+Wire Wire Line
+	7950 5500 7950 5550
+$Comp
+L power:GND #PWR?
+U 1 1 606DD8E0
+P 7950 4300
+AR Path="/606DD8E0" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/606DD8E0" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 7950 4050 50  0001 C CNN
+F 1 "GND" H 7955 4127 50  0000 C CNN
+F 2 "" H 7950 4300 50  0001 C CNN
+F 3 "" H 7950 4300 50  0001 C CNN
+	1    7950 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 4250 7950 4300
+$Comp
+L power:GND #PWR?
+U 1 1 607107AC
+P 7950 3500
+AR Path="/607107AC" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/607107AC" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 7950 3250 50  0001 C CNN
+F 1 "GND" H 7955 3327 50  0000 C CNN
+F 2 "" H 7950 3500 50  0001 C CNN
+F 3 "" H 7950 3500 50  0001 C CNN
+	1    7950 3500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3500 7950 3450
+Wire Wire Line
+	7950 3850 7950 3800
+Wire Wire Line
+	7550 3800 7950 3800
+Wire Wire Line
+	7550 3250 7100 3250
+Wire Wire Line
+	8350 4900 8500 4900
+Wire Wire Line
+	8500 4900 8500 4350
+Wire Wire Line
+	8500 4350 9250 4350
+Wire Wire Line
+	8600 4450 8600 5750
+Wire Wire Line
+	8600 5750 8350 5750
+Wire Wire Line
+	8600 4450 9250 4450
+Wire Wire Line
+	8350 4050 9250 4050
+Wire Wire Line
+	9250 3950 8450 3950
+Wire Wire Line
+	8450 3950 8450 3000
+Wire Wire Line
+	8450 3000 7950 3000
+Wire Wire Line
+	7950 3000 7950 3050
+$Comp
+L DIYPie:+1V8_CM #PWR?
+U 1 1 60808F3E
+P 7950 2700
+AR Path="/60808F3E" Ref="#PWR?"  Part="1" 
+AR Path="/60E46611/60808F3E" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 7950 2550 50  0001 C CNN
+F 1 "+1V8_CM" H 7965 2873 50  0000 C CNN
+F 2 "" H 7950 2700 50  0001 C CNN
+F 3 "" H 7950 2700 50  0001 C CNN
+	1    7950 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2700 7950 2750
+Wire Wire Line
+	7950 2950 7950 3000
+Connection ~ 7950 3000
+Text Notes 7350 5400 1    50   ~ 0
+Internal pull-ups required for \nlcm_[te, d0, d1] on the CM side
+Text Label 1650 1650 0    50   ~ 0
+lcm_id0
+Text Label 1650 1750 0    50   ~ 0
+lcm_id1
+Wire Wire Line
+	1650 1650 2200 1650
+Wire Wire Line
+	1650 1750 2200 1750
+Entry Wire Line
+	1550 2550 1650 2650
+Entry Wire Line
+	1550 2650 1650 2750
+Wire Notes Line
+	1700 3350 1700 4450
+Wire Notes Line
+	1250 4350 2650 4350
+Wire Notes Line
+	1250 4250 2650 4250
+Wire Notes Line
+	1250 4150 2650 4150
+Wire Notes Line
+	1250 4050 2650 4050
+Wire Notes Line
+	1250 3950 2650 3950
+Wire Notes Line
+	1250 3850 2650 3850
+Wire Notes Line
+	1250 3750 2650 3750
+Wire Notes Line
+	1250 3650 2650 3650
+Wire Notes Line
+	1250 3550 2650 3550
+Wire Notes Line
+	1250 3450 2650 3450
+Wire Notes Line
+	1250 4450 1250 3350
+Wire Notes Line
+	2650 4450 1250 4450
+Wire Notes Line
+	2650 3350 2650 4450
+Wire Notes Line
+	1250 3350 2650 3350
+Text Notes 1750 4450 0    50   ~ 0
+3.79
+Text Notes 1750 4350 0    50   ~ 0
+3.78
+Text Notes 1750 4250 0    50   ~ 0
+0.84
+Text Notes 1750 4150 0    50   ~ 0
+0.83
+Text Notes 1750 4050 0    50   ~ 0
+1.06
+Text Notes 1750 3950 0    50   ~ 0
+1.06
+Text Notes 1750 3850 0    50   ~ 0
+0.01
+Text Notes 1750 3750 0    50   ~ 0
+0
+Text Notes 1750 3650 0    50   ~ 0
+1.28
+Text Notes 1750 3550 0    50   ~ 0
+1.28
+Text Notes 1750 3450 0    50   ~ 0
+CM Length offset (mm)
+Text Notes 1650 3450 2    50   ~ 0
+DSI signal
+Text Notes 1650 4350 2    50   ~ 0
+D3N
+Text Notes 1650 4450 2    50   ~ 0
+D3P
+Text Notes 1650 4150 2    50   ~ 0
+D2N
+Text Notes 1650 4250 2    50   ~ 0
+D2P
+Text Notes 1650 3950 2    50   ~ 0
+D1N
+Text Notes 1650 4050 2    50   ~ 0
+D1P
+Text Notes 1650 3750 2    50   ~ 0
+D0N
+Text Notes 1650 3850 2    50   ~ 0
+D0P
+Text Notes 1650 3550 2    50   ~ 0
+CLKN
+Text Notes 1650 3650 2    50   ~ 0
+CKLP
+Text Notes 7600 2900 0    50   ~ 0
+TODO
+Wire Bus Line
+	1550 900  1550 2650
+$EndSCHEMATC
