@@ -3,7 +3,7 @@
 KIBOT=kibot
 DEBUG=
 CONFIG=DIYPie.kibot.yaml
-SCH=DIYPie.sch
+SCH=DIYPie.kicad_sch
 PCB=DIYPie.kicad_pcb
 DEST=output
 KIBOT_CMD=$(KIBOT) $(DEBUG) -c $(CONFIG) -e $(SCH) -b $(PCB) -d $(DEST)
@@ -47,7 +47,7 @@ print_sch: output/DIYPie-schematic_V1.pdf
 #
 # Rules and dependencies
 #
-output/DIYPie-erc_V1.txt: CM4.sch DIYPie.sch AUDIO.sch MEMORY.sch DISPLAY.sch POWER_IO.sch DIYPie.kibot.yaml
+output/DIYPie-erc_V1.txt: DIYPie.kicad_sch DIYPie.kibot.yaml
 	@$(KIBOT_CMD) -s run_drc -i 2>> $(LOGFILE)
 
 output/DIYPie-drc_.txt: DIYPie.kicad_pcb DIYPie.kibot.yaml
@@ -66,7 +66,7 @@ output/JLCPCB/DIYPie-JLCPCB_.zip: output/JLCPCB/DIYPie-F_Cu_.gbr output/JLCPCB/D
 	@$(KIBOT_CMD) -s all JLCPCB 2>> $(LOGFILE)
 
 # Print schematic (PDF)
-output/DIYPie-schematic_V1.pdf: CM4.sch DIYPie.sch AUDIO.sch MEMORY.sch DISPLAY.sch POWER_IO.sch DIYPie.kibot.yaml
+output/DIYPie-schematic_V1.pdf: DIYPie.kicad_sch DIYPie.kibot.yaml
 	@$(KIBOT_CMD) -s all print_sch 2>> $(LOGFILE)
 
 .PHONY: all pre_sch out_sch all_sch pre_pcb out_pcb all_pcb run_erc run_drc JLCPCB_gerbers JLCPCB_drill JLCPCB print_sch

@@ -372,7 +372,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       },
       {
         "bus_width": 12.0,
@@ -392,7 +392,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       },
       {
         "bus_width": 12.0,
@@ -412,7 +412,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       },
       {
         "bus_width": 12.0,
@@ -433,7 +433,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       },
       {
         "bus_width": 12.0,
@@ -454,7 +454,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       },
       {
         "bus_width": 12.0,
@@ -474,7 +474,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       },
       {
         "bus_width": 12.0,
@@ -494,7 +494,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       },
       {
         "bus_width": 12.0,
@@ -515,7 +515,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       },
       {
         "bus_width": 12.0,
@@ -535,7 +535,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       },
       {
         "bus_width": 12.0,
@@ -555,7 +555,7 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 17.716535433070867
+        "wire_width": 17.0
       }
     ],
     "meta": {

@@ -2,7 +2,7 @@
 DEBUG=
 MAK=kibot.mak
 CONFIG=DIYPie.kibot.yaml
-SCH=DIYPie.sch
+SCH=DIYPie.kicad_sch
 PCB=DIYPie.kicad_pcb
 DEST=output
 
