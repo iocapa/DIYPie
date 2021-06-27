@@ -282,7 +282,6 @@
     )
   )
 
-
   (junction (at 134.62 96.52) (diameter 1.016) (color 0 0 0 0))
   (junction (at 149.86 93.98) (diameter 1.016) (color 0 0 0 0))
   (junction (at 165.1 88.9) (diameter 1.016) (color 0 0 0 0))
@@ -365,11 +364,6 @@
     (at 137.16 80.01 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa1eddd6-7155-4b32-a9a4-79163fae65dc)
-  )
-  (text "ESD diodes to the system ground\n(minimize inductance)"
-    (at 137.16 118.11 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d2270660-21f1-4a07-a867-38fab62d5f0e)
   )
 
   (hierarchical_label "HP_L" (shape input) (at 130.81 96.52 180)
@@ -737,7 +731,7 @@
     (property "Footprint" "DIYPie:D_SOD-923" (id 2) (at 134.62 99.568 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/408/DF2B7AFS_datasheet_en_20180110-1128342.pdf" (id 3) (at 134.62 99.568 90)
+    (property "Datasheet" "~" (id 3) (at 134.62 99.568 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "ESD Suppressors / TVS Diodes ESD protection diode 10pF 6.8V" (id 4) (at 134.62 100.33 0)
@@ -807,7 +801,7 @@
     (property "Footprint" "DIYPie:D_SOD-923" (id 2) (at 149.86 99.568 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/408/DF2B7AFS_datasheet_en_20180110-1128342.pdf" (id 3) (at 149.86 99.568 90)
+    (property "Datasheet" "~" (id 3) (at 149.86 99.568 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "ESD Suppressors / TVS Diodes ESD protection diode 10pF 6.8V" (id 4) (at 149.86 100.33 0)
@@ -877,7 +871,7 @@
     (property "Footprint" "DIYPie:D_SOD-923" (id 2) (at 165.1 99.568 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/408/DF2B7AFS_datasheet_en_20180110-1128342.pdf" (id 3) (at 165.1 99.568 90)
+    (property "Datasheet" "~" (id 3) (at 165.1 99.568 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "ESD Suppressors / TVS Diodes ESD protection diode 10pF 6.8V" (id 4) (at 165.1 100.33 0)

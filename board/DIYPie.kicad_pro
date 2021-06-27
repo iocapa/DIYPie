@@ -508,6 +508,7 @@
         "name": "VBAT",
         "nets": [
           "/+V_{BAT}",
+          "/+V_{B}",
           "/+V_{FG}"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
